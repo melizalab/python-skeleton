@@ -1,13 +1,13 @@
 
-# Computational Neuroscience Project Skeleton
+# Python Project Skeleton
 
-This repository is a skeleton Python package that students in PSYC 5270 can use to get started on their data exploration assignments.
+This repository is a skeleton Python package that students in the Meliza Lab can use to get started on various projects.
 
 ## Getting started
 
-Start by cloning the repository: `git clone https://github.com/melizalab/comp-neurosci-skeleton.git`
+Start by cloning the repository: `git clone https://github.com/melizalab/python-skeleton.git`
 
-This will create a new directory, `comp-neurosci-skeleton`, containing the following items:
+This will create a new directory, `python-skeleton`, containing the following items:
 
 - `README.md`: this file
 - `setup.py`:  package description file. You will need to edit this.
@@ -16,17 +16,19 @@ This will create a new directory, `comp-neurosci-skeleton`, containing the follo
 - `src`:       a directory where you will put your python code
 - `test`:      a directory where you will put test code
 - `data`:      a directory where your data will live
+- `notebooks`: a directory for Jupyter Notebooks
+- `scripts`:   a directory for commandline scripts
 - `build`:     a directory where processed output from your analysis will live
 
-Choose a new name for your package. For the PSYC 5270 assignment, use something like `crcns-datasetid-computingid`. Rename the top-level directory (`comp-neurosci-skeleton`) and edit `setup.py` to set the new name and other identifying information.
+Choose a new name for your package. Rename the top-level directory (`python-skeleton`) and edit `setup.py` to set the new name and other identifying information.
 
-Now you need to create a github repository of your own. Go to [https://github.com/new](https://github.com/new). Give the repository your chosen name and a description, then click Create Repository. **DO NOT** check the box to initialize the repository with a readme. Ignore the instructions on how to set up your repository, but make a note of the address. It will look something like `https://github.com/dmeliza/dummy.git`
+Now you need to create a github repository of your own. Go to [https://github.com/new](https://github.com/new). Give the repository your chosen name and a description, then click Create Repository. **DO NOT** check the box to initialize the repository with a readme. Ignore the instructions on how to set up your repository, but make a note of the address. It will look something like `git@github.com:dmeliza/dummy.git`
 
 Finally, set your local directory to track the github repository by running the following commands in your working directory. Replace the repository address in the code below with the one for your project.
 
 ``` shell
 git remote rm origin
-git remote add origin https://github.com/dmeliza/dummy.git
+git remote add origin git@github.com:dmeliza/dummy.git
 git push -u origin master
 ```
 
